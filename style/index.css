@@ -1,0 +1,76 @@
+body {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: auto;
+}
+
+.header {
+  width: 100%;
+}
+
+.header-navigation {
+  width: 555px;
+  height: 19px;
+  margin: 0 auto;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #7d7d7d;
+  font-size: 14px;
+  padding: 0 45.17px;
+}
+
+.header-link:hover {
+  color: #03a9f4;
+}
+
+.header-link:first-child {
+  padding: 0 45.17px 0 0;
+}
+
+.header-link:last-child {
+  padding: 0 0 0 45.17px;
+}
+
+.section {
+}
+
+.section-article {
+  color: #626262;
+}
+
+.section-img-name {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #b4ad9e;
+  font-size: 14px;
+}
+
+.section-title {
+  font-size: 30px;
+}
+
+.section-text {
+  font-size: 14px;
+}
+
+.button {
+  width: 165px;
+  height: 60px;
+  border: 1px solid #626262;
+  background-color: #ffffff;
+}
+
+.button-text {
+  font-family: 'Playfair Display', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: auto;
+  font-size: 14px;
+  color: #626262;
+}
