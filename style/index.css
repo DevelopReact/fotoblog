@@ -8,6 +8,8 @@ body {
 
 .header {
   width: 100%;
+  margin-top: 71px;
+  margin-bottom: 100px;
 }
 
 .header-navigation {
@@ -35,11 +37,24 @@ body {
   padding: 0 0 0 45.17px;
 }
 
+.container {
+  width: 906px;
+  margin: 0 auto;
+}
+
 .section {
+  width: 420px;
+  display: inline-block;
 }
 
 .section-article {
   color: #626262;
+}
+
+.section-article > span {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .section-img-name {
@@ -63,6 +78,10 @@ body {
   height: 60px;
   border: 1px solid #626262;
   background-color: #ffffff;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .button-text {
